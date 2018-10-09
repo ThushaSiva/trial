@@ -5,6 +5,9 @@
 .header
 {
    height: 100vh;
+      background-image: url(pic1.jpg);
+   background-size: cover;
+backgorund-position: center;
 }
 .navbar-style
 {
@@ -18,8 +21,7 @@
 }
 .img-responsive
 {
-  
-   margin: auto;
+   background-image: ;
 }
 .icon-bar
 {
