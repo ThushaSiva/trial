@@ -5,9 +5,6 @@
 .header
 {
    height: 100vh;
-      background-image: url(pic1.jpg);
-   background-size: cover;
-backgorund-position: center;
 }
 .navbar-style
 {
@@ -19,10 +16,6 @@ backgorund-position: center;
    height: 48px;
    padding: 2px 10px;
 }
-.img-responsive
-{
-   background-image: ;
-}
 .icon-bar
 {
    background: darkblue;
@@ -31,47 +24,27 @@ li a
 {
    color: #333;
 }
-.welcome
+a.btn
 {
-   position: absolute;
-   width: 900px;
-   margin-left: 0;
-   margin-top: 0;
+   margin: 30px 10px;
+   width: 150px;
+   padding: 10px;
+   border-radius: 20px
 }
-
-h1
+a.btn-first
 {
-   color: darkturquoise;
-   text-transform: uppercase;
-   font-size: 100px;
-   text-align: center;
-   margin-top: 150px;
+     background-color: blue;
+      color: #fff;
 }
-
-.button
+a.btn:hover
 {
-   margin-top: 30px;
-   margin-left: 940px;
+   background: blue;
+   border: none;
+   color: #fff;
+   box-shadow: 5px 5px 10px #999;
+   transition: 0.3s;
 }
-
-.btn
+.banner-info, .banner-image
 {
-   border: 1px solid black;
-   padding: 10px 30px;
-   color: black;
-   text-decoration: none;
-   margin-right: 5px;
-   font-size: 33px;
-   text-transform: uppercase;
-}
-
-.btn-one
-{
-   font-family: "Roboto", sans-serif;
-}
-
-.btn-one:hover
-{
-   background-color: darkblue;
-   transition: all 0.5s ease-in;
+   margin: 30px 0;
 }
