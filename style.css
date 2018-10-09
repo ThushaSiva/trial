@@ -4,10 +4,9 @@
 }
 .header
 {
-   background-image: url(pic1.jpg);
+
    height: 100vh;
-   background-size: cover;
-   backgorund-position: center;
+
 }
 .navbar-style
 {
