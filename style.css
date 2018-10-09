@@ -1,0 +1,210 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.header
+{
+   background-image: url(pic1.jpg);
+   height: 100vh;
+   background-size: cover;
+   backgorund-position: center;
+}
+.navbar-style
+{
+   box-shadow: 0 5px 10px #efefef;
+   text-transform: uppercase;
+}
+.logo
+{
+   height: 48px;
+   padding: 2px 10px;
+}
+.icon-bar
+{
+   background: darkblue;
+}
+li a
+{
+   color: #333;
+}
+
+
+.main-nav
+{
+   float: right;
+   list-style: none;
+   margine-top: 30px;  
+}
+
+.main-nav li
+{
+   display: inline-block;
+}
+
+.main-nav li
+{
+   color: black;
+   text-decoration: none;
+   padding: 5px 20px; 
+   font-family: "Roboto", sans-serif;
+   font-size: 15px;
+}
+
+.main-nav li.active a
+{
+   border: 1px solid black;
+}
+
+.main-nav li a:hover
+{
+   border: 1px solid black; 
+}
+
+.logo img
+{
+   width: 150px;
+   height: auto;
+   float: left;
+}
+
+body
+{
+   font-family: monospace;
+}
+
+.row
+{
+   max-width: 2000px;
+   margin: auto;
+}
+
+.welcome
+{
+   position: absolute;
+   width: 900px;
+   margin-left: 0;
+   margin-top: 0;
+}
+
+h1
+{
+   color: darkturquoise;
+   text-transform: uppercase;
+   font-size: 100px;
+   text-align: center;
+   margin-top: 150px;
+}
+
+.button
+{
+   margin-top: 30px;
+   margin-left: 940px;
+}
+
+.btn
+{
+   border: 1px solid black;
+   padding: 10px 30px;
+   color: black;
+   text-decoration: none;
+   margin-right: 5px;
+   font-size: 33px;
+   text-transform: uppercase;
+}
+
+.btn-one
+{
+   font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover
+{
+   background-color: darkblue;
+   transition: all 0.5s ease-in;
+}
+
+.info
+{
+   position: absolute;
+   width: 800px;
+   margin-left: 50px;
+   margin-top: 0;
+}
+
+h2
+{
+   color: black;
+   text-transform: none;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 100px;
+}
+
+.services
+{
+   position: absolute;
+   width: 800px;
+   margin-left: 50px;
+   margin-top: 0;
+}
+
+h3
+{
+   color: black;
+   text-transform: none;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 100px;
+}
+
+.contacts
+{
+   position: absolute;
+   width: 800px;
+   margin-left: 50px;
+   margin-top: 0;
+}
+
+h4
+{
+   color: black;
+   text-transform: none;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 100px;
+}
+
+h5
+{
+   color: black;
+   text-transform: none;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 0px;
+}
+
+.faqs
+{
+   position: absolute;
+   width: 800px;
+   margin-left: 50px;
+   margin-top: 0;
+}
+
+h6
+{
+   color: black;
+   text-transform: none;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 100px;
+}
+
+h7
+{
+   color: black;
+   text-transform: none;
+   font-size: 15px;
+   text-align: justify;
+   margin-top: 0px;
+}
