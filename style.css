@@ -19,8 +19,7 @@
 .img-responsive
 {
    height: 100vh;
-   background-size: cover;
-   position: center;
+   margin: auto;
 }
 .icon-bar
 {
