@@ -26,11 +26,13 @@ li a
 }
 a.btn
 {
-   margin: 30px 10px;
-   width: 150px;
+
    padding: 10px;
    border-radius: 20px;
-   position:absolute;
+   position: absolute;
+   top: 10%;
+   left: 0%;
+   width: 100%;
 }
 a.btn-one
 {
