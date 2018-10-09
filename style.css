@@ -30,11 +30,12 @@ a.btn
    width: 150px;
    padding: 10px;
    border-radius: 20px;
+   position:absolute;
 }
 a.btn-one
 {
      background-color: blue;
-      color: #fff;
+     color: #fff;
 }
 a.btn:hover
 {
