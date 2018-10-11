@@ -65,7 +65,7 @@ a.btn-one
 {
    width: 95%;
    overflow: hidden;
-   background: beige;
+   background: lightgrey;
    margin: 20px auto;
    padding: 20px 0px;
 }
@@ -81,7 +81,7 @@ a.btn-one
    width: 20%;
    height: 300px;
    background: lightblue;
-   margin: 40px 30px 0px 40px;
+   margin: 40px 30px 0px 20px;
    box-sizing: border-box;
    border: 2px solid white;
 }
@@ -89,10 +89,32 @@ a.btn-one
 {
    opacity: 0.9;
 }
+.box ul li .title:hover
+{
+   background: skyblue;
+   color: white;
+}
 .box ul li .title{
    width: 100%
    height: 50px;
    line-height: 50px;
    background: white;
    text-align: center;
+}
+@media screen and (max-width:1250px){
+   .box ul li{
+      width: 40%;
+      margin-left: 50px;
+   }
+}
+@media screen and (max-width:750px){
+   .box ul li{
+      width: 100%;
+      margin: 0px;
+   }
+   .box ul li{
+      float: none;
+      width: 90%;
+      margin: 40px auto;
+   }
 }
