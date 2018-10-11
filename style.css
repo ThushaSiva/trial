@@ -62,7 +62,7 @@ a.btn-one
     width: 100%;
 }
 
-.container
+.box
 {
    width: 95%;
    overflow: hidden;
@@ -70,12 +70,12 @@ a.btn-one
    margin: 20px auto;
    padding: 20px 0px;
 }
-.container ul
+.box ul
 {
    padding: 0px;
    margin: 0px;
 }
-.container ul li
+.box ul li
 {
    list-style: none;
    float: left;
@@ -86,11 +86,11 @@ a.btn-one
    box-sizing: border-box;
    border: 2px solid white;
 }
-.container ul li:hover
+.box ul li:hover
 {
    opacity: 0.9;
 }
-.container ul li .title{
+.box ul li .title{
    width: 100%
    height: 50px;
    line-height: 50px;
