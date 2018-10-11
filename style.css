@@ -69,4 +69,8 @@ a.btn-one
    margin: 20px auto;
    padding: 20px 0px;
 }
-
+.box ul
+{
+   padding: 0px;
+   margin: 0px;
+}
