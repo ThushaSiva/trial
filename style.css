@@ -61,3 +61,12 @@ a.btn-one
     left: 0%;
     width: 100%;
 }
+.box
+{
+   width: 95%;
+   overflow: hidden;
+   background: beige;
+   margin: 20px auto;
+   padding: 20px 0px;
+}
+
