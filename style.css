@@ -61,60 +61,48 @@ a.btn-one
     left: 0%;
     width: 100%;
 }
+
+body
+{
+   font-family: "Tahoma", sans-serif;
+   background: #333;
+   color: #fff;
+}
 .box
 {
-   width: 95%;
-   overflow: hidden;
-   background: lightgrey;
-   margin: 20px auto;
-   padding: 20px 0px;
-}
-.box ul
-{
-   padding: 0px;
-   margin: 0px;
-}
-.box ul li
-{
-   list-style: none;
    float: left;
-   width: 20%;
-   height: 300px;
-   background: skyblue;
-   margin: 40px 30px 0px 20px;
+   width: 33.3%;
+   padding: 8px;
    box-sizing: border-box;
-   border: 2px solid white;
 }
-.box ul li:hover
+.list
 {
-   opacity: 0.9;
+   background: #fff;
+   color: #555;
+   list-style-type: none;
+   border: 1px solid #555;
+   margin: 0;
+   padding: 0;
+   transition: 0.3s;
 }
-.box ul li .title:hover
+.list: hover
 {
-   background: beige;
-   color: white;
+   box-shadow: 0 10px 15px 0 #000;
 }
-.box ul li .title{
-   width: 100%
-   height: 50px;
-   line-height: 50px;
-   background: white;
+.list .title
+{
+   background-color: #111;
+   color: #fff;
+   font-size: 25px;
+}
+.list li
+{
+   padding: 20px;
+   border-bottom: 1px solid #eee;
    text-align: center;
 }
-@media screen and (max-width:1250px){
-   .box ul li{
-      width: 40%;
-      margin-left: 50px;
-   }
-}
-@media screen and (max-width:750px){
-   .box ul li{
-      width: 100%;
-      margin: 0px;
-   }
-   .box ul li{
-      float: none;
-      width: 90%;
-      margin: 40px auto;
+@media(max-width: 700px){
+   .box{
+      width: 100%
    }
 }
